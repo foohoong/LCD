@@ -1,0 +1,98 @@
+<!DOCTYPE CrossStudio_Session_File>
+<session>
+ <Bookmarks/>
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints">
+  <BreakpointListItem trigger="" line="120" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="4" filename="../Src/BSP/LCD/LCD.c" useHWbreakpoint="false"/>
+  <Exceptions set="MemManage;UsageFault_Coprocessor;UsageFault_CheckingError;UsageFault_StateError;BusFault;ExceptionEntryReturnFault;HardFault"/>
+ </Breakpoints>
+ <ExecutionProfileWindow/>
+ <FrameBufferWindow>
+  <FrameBufferWindow bufferHeight="-1" addressSpace="" addressText="" bufferWidth="-1"/>
+ </FrameBufferWindow>
+ <Memory1>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="MobileRobot" radix="16" sizeText="" addressText=""/>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="Vehicle" radix="16" sizeText="" addressText=""/>
+ </Memory1>
+ <Memory2>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="MobileRobot" radix="16" sizeText="" addressText=""/>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="Vehicle" radix="16" sizeText="" addressText=""/>
+ </Memory2>
+ <Memory3>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="MobileRobot" radix="16" sizeText="" addressText=""/>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="Vehicle" radix="16" sizeText="" addressText=""/>
+ </Memory3>
+ <Memory4>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="MobileRobot" radix="16" sizeText="" addressText=""/>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="Vehicle" radix="16" sizeText="" addressText=""/>
+ </Memory4>
+ <Project>
+  <ProjectSessionItem path="Vehicle"/>
+  <ProjectSessionItem path="Vehicle;Vehicle"/>
+  <ProjectSessionItem path="Vehicle;Vehicle;Source Files"/>
+  <ProjectSessionItem path="Vehicle;Vehicle;Source Files;App"/>
+  <ProjectSessionItem path="Vehicle;Vehicle;Source Files;App::CRC"/>
+  <ProjectSessionItem path="Vehicle;Vehicle;Source Files;BSP"/>
+  <ProjectSessionItem path="Vehicle;Vehicle;Source Files;BSP::I2c"/>
+  <ProjectSessionItem path="Vehicle;Vehicle;Source Files;BSP::PWM"/>
+  <ProjectSessionItem path="Vehicle;Vehicle;Source Files;BSP::Timer"/>
+  <ProjectSessionItem path="Vehicle;Vehicle;Source Files;BSP:LCD"/>
+  <ProjectSessionItem path="Vehicle;Vehicle;System Files"/>
+ </Project>
+ <Register1>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp;USART2/CR1;USART2/CR2;USART2/CR3;USART2/BRR;USART2/GTPR;USART2/RTOR;USART2/RQR;USART2/ISR;USART2/ICR;USART2/RDR;USART2/TDR" binaryNodes="" asciiNodes="" openNodes="USART2;USART2/CR1;USART2/ISR;USART2/ICR" name="MobileRobot" decimalNodes="" octalNodes="" unsignedNodes=""/>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp;RCC/CR;RCC/CFGR;RCC/CIR;RCC/APB2RSTR;RCC/APB1RSTR;RCC/AHBENR;RCC/APB2ENR;RCC/APB1ENR;RCC/BDCR;RCC/CSR;USART1/SR;USART1/DR;USART1/BRR;USART1/CR1;USART1/CR2;USART1/CR3;USART1/GTPR" binaryNodes="" asciiNodes="" openNodes="RCC;RCC/CFGR;RCC/APB2ENR;RCC/APB1ENR;USART1;USART1/SR;USART1/BRR;USART1/CR1" name="Vehicle" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register1>
+ <Register2>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="MobileRobot" decimalNodes="" octalNodes="" unsignedNodes=""/>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="Vehicle" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register2>
+ <Register3>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="MobileRobot" decimalNodes="" octalNodes="" unsignedNodes=""/>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="Vehicle" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register3>
+ <Register4>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="MobileRobot" decimalNodes="" octalNodes="" unsignedNodes=""/>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="Vehicle" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register4>
+ <TraceWindow>
+  <Trace enabled="Yes"/>
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Each Second">
+   <Watchpoint numelements="524" expression="g_aAccRxData" evalMode="0" name="g_aAccRxData" radix="-1" linenumber="197" filename="../Src/App/uCam/uCam.c" list=""/>
+   <Watchpoint numelements="0" expression="g_ImuData" evalMode="0" name="g_ImuData" radix="16" linenumber="133" filename="../Src/main.c" list=""/>
+   <Watchpoint numelements="0" expression="g_nRxCount" evalMode="0" name="g_nRxCount" radix="-1" linenumber="183" filename="../Src/App/uCam/uCam.c" list=""/>
+   <Watchpoint numelements="0" expression="g_pUart2Handle" evalMode="1" name="g_pUart2Handle" radix="-1" linenumber="407" filename="../Src/App/uCam/uCam.c" list=""/>
+   <Watchpoint numelements="0" expression="g_UCAM" evalMode="0" name="g_UCAM" radix="-1" linenumber="183" filename="../Src/main.c" list=""/>
+   <Watchpoint numelements="0" expression="pHandle" evalMode="1" name="pHandle" radix="10" linenumber="185" filename="../Src/App/PID/PID.c" list=""/>
+   <Watchpoint numelements="0" expression="resp" evalMode="1" name="resp" radix="16" linenumber="196" filename="../Src/App/uCam/uCam.c" list=""/>
+   <Watchpoint numelements="8" expression="UCAM_COMMAND" evalMode="2" name="UCAM_COMMAND" radix="-1" linenumber="343" filename="../Src/App/uCam/uCam.c" list=""/>
+  </Watches>
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never"/>
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never"/>
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never"/>
+ </Watch4>
+ <Files>
+  <SessionOpenFile windowGroup="DockEditLeft" x="46" y="57" useTextEdit="1" useBinaryEdit="0" left="0" path="../Src/main.c" debugPath="../Src/main.c" selected="1" top="74" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="241" useTextEdit="1" useBinaryEdit="0" left="0" path="../Src/BSP/I2c/i2c.c" debugPath="../Src/BSP/I2c/i2c.c" selected="0" top="221" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="45" useTextEdit="1" useBinaryEdit="0" left="0" path="../Src/BSP/Hal.h" debugPath="../Src/BSP/Hal.h" selected="0" top="18" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="54" useTextEdit="1" useBinaryEdit="0" left="0" path="../Src/BSP/Hal.c" debugPath="../Src/BSP/Hal.c" selected="0" top="48" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="7611" useTextEdit="1" useBinaryEdit="0" left="0" path="../Src/BSP/MCU/STM32F1xx/CMSIS/Device/Include/stm32f10x.h" debugPath="../Src/BSP/MCU/STM32F1xx/CMSIS/Device/Include/stm32f10x.h" selected="0" top="7595" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="1451" useTextEdit="1" useBinaryEdit="0" left="0" path="../Src/BSP/MCU/CMSIS_4/CMSIS/Include/core_cm3.h" debugPath="../Src/BSP/MCU/CMSIS_4/CMSIS/Include/core_cm3.h" selected="0" top="1437" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="18" useTextEdit="1" useBinaryEdit="0" left="0" path="../Src/BSP/IRQ.c" debugPath="../Src/BSP/IRQ.c" selected="0" top="36" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="170" useTextEdit="1" useBinaryEdit="0" left="0" path="../Src/BSP/LCD/LCD.c" debugPath="../Src/BSP/LCD/LCD.c" selected="0" top="150" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="7" useTextEdit="1" useBinaryEdit="0" left="0" path="../Src/BSP/LCD/LCD.h" debugPath="../Src/BSP/LCD/LCD.h" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="74" useTextEdit="1" useBinaryEdit="0" left="0" path="../Src/BSP/BSP.c" debugPath="../Src/BSP/BSP.c" selected="0" top="54" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="37" useTextEdit="1" useBinaryEdit="0" left="0" path="../Src/Lib/Common/Inc/I2c.h" debugPath="../Src/Lib/Common/Inc/I2c.h" selected="0" top="30" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="374" useTextEdit="1" useBinaryEdit="0" left="0" path="../Src/BSP/MCU/CMSIS_4/CMSIS/Include/cmsis_gcc.h" debugPath="../Src/BSP/MCU/CMSIS_4/CMSIS/Include/cmsis_gcc.h" selected="0" top="359" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" useBinaryEdit="0" left="0" path="../Src/BSP/Retarget.c" debugPath="../Src/BSP/Retarget.c" selected="0" top="63" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" useBinaryEdit="0" left="0" path="../Src/Lib/Common/Inc/Common.h" debugPath="../Src/Lib/Common/Inc/Common.h" selected="0" top="48" codecName="Default"/>
+ </Files>
+ <ARMCrossStudioWindow activeProject="Vehicle" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Debug" debugSearchFileMap="" fileDialogInitialDirectory="D:/SEGGER Embedded Studio Projects/0-0 LAB [LCD]/Src/Lib/Common/Inc" debugSearchPath="" autoConnectCapabilities="3711"/>
+</session>
