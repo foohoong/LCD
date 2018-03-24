@@ -2,14 +2,14 @@
  @Project	: 
  @File 		: main.c
  @Details  	: Main entry               
- @Author	: lcgan
+ @Author	: Fong FH
  @Hardware	: STM32
  
  --------------------------------------------------------------------------
  @Revision	:
   Ver  	Author    	Date        	Changes
  --------------------------------------------------------------------------
-   1.0  Name     XXXX-XX-XX  		Initial Release
+   1.0  Fong FH     1 Mar 2018  		Initial Release
    
 ******************************************************************************/
 #include <Common.h>
