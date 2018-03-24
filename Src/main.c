@@ -1,5 +1,5 @@
 /*****************************************************************************
- @Project	: 
+ @Project	: STN32F103RB to I2C 16X2 LCD 
  @File 		: main.c
  @Details  	: Main entry               
  @Author	: Fong FH
