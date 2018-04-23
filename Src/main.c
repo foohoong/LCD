@@ -23,7 +23,7 @@
 /*****************************************************************************
  Define
 ******************************************************************************/
-#define SYS_TICK_MS		100U
+#define SYS_TICK_MS         100U
 
 #define TIMER1_TICK_HZ		10000U
 
@@ -52,16 +52,17 @@
  Local Variables
 ******************************************************************************/
 
-static TIMER_HANDLE	g_Timer1Handle;
+static TIMER_HANDLE     g_Timer1Handle;
 
-static volatile int	g_nSystemTick = SYS_TICK_MS;
+static volatile int     g_nSystemTick = SYS_TICK_MS;
 static volatile BOOL    g_bSystemTick = FALSE;
 
 static BOOL             toggle = FALSE;
 
-static I2C_HANDLE	g_I2cHandle;
-static char             LCD_ROW1[16] = "HAPPY CHINESE  ";
-static char             LCD_ROW2[16] = " NEW YEAR !!   ";
+static I2C_HANDLE       g_I2cHandle;
+
+static char             LCD [2][16] =   {"DIGIPEN INST   1",
+                                         "OF TECHNOLOGY  2"};
 
 /*****************************************************************************
  Local function Prototype
@@ -81,45 +82,34 @@ static void main_cbI2cDone( void );
 void main( void )
 {
     int i;
-    
+    char row;
+
     BSPInit();
     SysTick_Config( SystemCoreClock/1000 );  /* Generate interrupt each 1 ms */
     main_I2cInit();
     TimerInit( &g_Timer1Handle, 1U, TIMER1_TICK_HZ );  /* 10KHz */
     IRQInit();
+
     LCD_init( &g_I2cHandle );
 
     TRACE( "LCD\r\n" );
-    
-    for (i=0;i<15;i++)
-        {
-           LCD_Write_Data(LCD_ROW1[i] );
-          //LCD_Write_Data('Z' );
-           // TRACE( "r1=%c\r\n", LCD_ROW1[i] );
-         }
-  Write_Ctrl_Sequence(0b11000000);  
   
-    for (i=0;i<15;i++)
-        {
-           LCD_Write_Data(LCD_ROW2[i] );
-          //LCD_Write_Data('Z' );
-           // TRACE( "r1=%c\r\n", LCD_ROW1[i] );
-         }
-    
+    for (row=0; row<=1; row++)
+    {
+        for (i=0;i<=15;i++)
+           LCD_Write_Data( LCD[row][i] );
+        Write_Ctrl_Sequence(0b11000000);  /* position cursor to the 2nd line */
+     }
+
     for(;;)
     {	
-       // TRACE( "for loop\r\n" );
         if (0 != g_bSystemTick)
         {            
             g_bSystemTick = FALSE;
             toggle = !toggle;
             LED_SET( toggle );	
-         
-            //LCD_Write_Data('A' );
-        }	
-        
-        
-         
+            TRACE( "LED blink\r\n" );
+        }	        
     }
 }
 
@@ -137,7 +127,7 @@ static void main_I2cInit( void )
 	int res;
 		
 	res = I2cInit( &g_I2cHandle, 1, 100000U ); /* 0 = I2C1; 1 = I2C2  */
-	ASSERT( I2C_STS_OK == res );
+    ASSERT( I2C_STS_OK == res );
 
 }
 

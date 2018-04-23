@@ -5,6 +5,7 @@ MEMORY
   FLASH (rx) : ORIGIN = 0x08000000, LENGTH = 0x00020000
 }
 
+
 SECTIONS
 {
   __RAM_segment_start__ = 0x20000000;

@@ -29,13 +29,13 @@
   <ProjectSessionItem path="Vehicle"/>
   <ProjectSessionItem path="Vehicle;Vehicle"/>
   <ProjectSessionItem path="Vehicle;Vehicle;Source Files"/>
-  <ProjectSessionItem path="Vehicle;Vehicle;Source Files;App"/>
   <ProjectSessionItem path="Vehicle;Vehicle;Source Files;App::CRC"/>
-  <ProjectSessionItem path="Vehicle;Vehicle;Source Files;BSP"/>
-  <ProjectSessionItem path="Vehicle;Vehicle;Source Files;BSP::I2c"/>
-  <ProjectSessionItem path="Vehicle;Vehicle;Source Files;BSP::PWM"/>
-  <ProjectSessionItem path="Vehicle;Vehicle;Source Files;BSP::Timer"/>
   <ProjectSessionItem path="Vehicle;Vehicle;Source Files;BSP:LCD"/>
+  <ProjectSessionItem path="Vehicle;Vehicle;Source Files;App"/>
+  <ProjectSessionItem path="Vehicle;Vehicle;Source Files;BSP"/>
+  <ProjectSessionItem path="Vehicle;Vehicle;Source Files;BSP::Timer"/>
+  <ProjectSessionItem path="Vehicle;Vehicle;Source Files;BSP::PWM"/>
+  <ProjectSessionItem path="Vehicle;Vehicle;Source Files;BSP::I2c"/>
   <ProjectSessionItem path="Vehicle;Vehicle;System Files"/>
  </Project>
  <Register1>
@@ -60,10 +60,10 @@
  <Watch1>
   <Watches active="1" update="Each Second">
    <Watchpoint numelements="524" expression="g_aAccRxData" evalMode="0" name="g_aAccRxData" radix="-1" linenumber="197" filename="../Src/App/uCam/uCam.c" list=""/>
-   <Watchpoint numelements="0" expression="g_ImuData" evalMode="0" name="g_ImuData" radix="16" linenumber="133" filename="../Src/main.c" list=""/>
+   <Watchpoint numelements="0" expression="g_ImuData" evalMode="0" name="g_ImuData" radix="16" linenumber="123" filename="../Src/main.c" list=""/>
    <Watchpoint numelements="0" expression="g_nRxCount" evalMode="0" name="g_nRxCount" radix="-1" linenumber="183" filename="../Src/App/uCam/uCam.c" list=""/>
    <Watchpoint numelements="0" expression="g_pUart2Handle" evalMode="1" name="g_pUart2Handle" radix="-1" linenumber="407" filename="../Src/App/uCam/uCam.c" list=""/>
-   <Watchpoint numelements="0" expression="g_UCAM" evalMode="0" name="g_UCAM" radix="-1" linenumber="183" filename="../Src/main.c" list=""/>
+   <Watchpoint numelements="0" expression="g_UCAM" evalMode="0" name="g_UCAM" radix="-1" linenumber="173" filename="../Src/main.c" list=""/>
    <Watchpoint numelements="0" expression="pHandle" evalMode="1" name="pHandle" radix="10" linenumber="185" filename="../Src/App/PID/PID.c" list=""/>
    <Watchpoint numelements="0" expression="resp" evalMode="1" name="resp" radix="16" linenumber="196" filename="../Src/App/uCam/uCam.c" list=""/>
    <Watchpoint numelements="8" expression="UCAM_COMMAND" evalMode="2" name="UCAM_COMMAND" radix="-1" linenumber="343" filename="../Src/App/uCam/uCam.c" list=""/>
@@ -79,14 +79,14 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="46" y="57" useTextEdit="1" useBinaryEdit="0" left="0" path="../Src/main.c" debugPath="../Src/main.c" selected="1" top="74" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="241" useTextEdit="1" useBinaryEdit="0" left="0" path="../Src/BSP/I2c/i2c.c" debugPath="../Src/BSP/I2c/i2c.c" selected="0" top="221" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="29" y="92" useTextEdit="1" useBinaryEdit="0" left="0" path="../Src/main.c" debugPath="../Src/main.c" selected="1" top="81" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="8" y="85" useTextEdit="1" useBinaryEdit="0" left="0" path="../Src/BSP/I2c/i2c.c" debugPath="../Src/BSP/I2c/i2c.c" selected="0" top="165" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="45" useTextEdit="1" useBinaryEdit="0" left="0" path="../Src/BSP/Hal.h" debugPath="../Src/BSP/Hal.h" selected="0" top="18" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="54" useTextEdit="1" useBinaryEdit="0" left="0" path="../Src/BSP/Hal.c" debugPath="../Src/BSP/Hal.c" selected="0" top="48" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="7611" useTextEdit="1" useBinaryEdit="0" left="0" path="../Src/BSP/MCU/STM32F1xx/CMSIS/Device/Include/stm32f10x.h" debugPath="../Src/BSP/MCU/STM32F1xx/CMSIS/Device/Include/stm32f10x.h" selected="0" top="7595" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="1451" useTextEdit="1" useBinaryEdit="0" left="0" path="../Src/BSP/MCU/CMSIS_4/CMSIS/Include/core_cm3.h" debugPath="../Src/BSP/MCU/CMSIS_4/CMSIS/Include/core_cm3.h" selected="0" top="1437" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="18" useTextEdit="1" useBinaryEdit="0" left="0" path="../Src/BSP/IRQ.c" debugPath="../Src/BSP/IRQ.c" selected="0" top="36" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="170" useTextEdit="1" useBinaryEdit="0" left="0" path="../Src/BSP/LCD/LCD.c" debugPath="../Src/BSP/LCD/LCD.c" selected="0" top="150" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="30" y="104" useTextEdit="1" useBinaryEdit="0" left="0" path="../Src/BSP/LCD/LCD.c" debugPath="../Src/BSP/LCD/LCD.c" selected="0" top="104" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="7" useTextEdit="1" useBinaryEdit="0" left="0" path="../Src/BSP/LCD/LCD.h" debugPath="../Src/BSP/LCD/LCD.h" selected="0" top="0" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="74" useTextEdit="1" useBinaryEdit="0" left="0" path="../Src/BSP/BSP.c" debugPath="../Src/BSP/BSP.c" selected="0" top="54" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="37" useTextEdit="1" useBinaryEdit="0" left="0" path="../Src/Lib/Common/Inc/I2c.h" debugPath="../Src/Lib/Common/Inc/I2c.h" selected="0" top="30" codecName="Default"/>

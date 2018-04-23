@@ -126,9 +126,9 @@ void LCD_init( PI2C_HANDLE pHandle )
     Write_Ctrl_Sequence(0b00001110); // display on, cursor on, char no blink
    
     Write_Ctrl_Sequence(0b00000110); // entry mode: incr add, shift R
-   
-   
+      
     Write_Ctrl_Sequence(0b00000001); // clear display, cursor home
+    TRACE( "Clear LCD Display\r\n");
 }
 
 
@@ -172,13 +172,13 @@ void Write_Data_Sequence(uint8_t data)
     w_data[1] = 0b00001101;// E=1
 
     w_data[2] = w_data[1];
-    TRACE( "HNibble=%i\r\n",LCD_D_HNIBBLE(data) );
+    //TRACE( "HNibble=%i\r\n",LCD_D_HNIBBLE(data) );
     w_data[2] |= LCD_D_HNIBBLE(data);
     
     w_data[3] = 0b01001001;  //E=0
     w_data[4] = 0b00001101; //E=1
     
-    TRACE( "LNibble=%i\r\n",LCD_D_LNIBBLE(data) );
+    //TRACE( "LNibble=%i\r\n",LCD_D_LNIBBLE(data) );
     w_data[5] = w_data[4];
     w_data[5] |= LCD_D_LNIBBLE(data);
 
@@ -192,7 +192,7 @@ void Write_Data_Sequence(uint8_t data)
 void Write_Ctrl_Sequence( uint8_t data)
 {
     memset( w_data, 0, sizeof(w_data) );
-    TRACE( "Ctrl Seq\r\n" );
+    //TRACE( "Ctrl Seq\r\n" );
     /*
     w_data[0] &= ~LCD_RW; // RW=0
     w_data[0] &= ~LCD_RS; // RS=0
@@ -225,13 +225,13 @@ void Write_Ctrl_Sequence( uint8_t data)
     w_data[1] = 0b00001100;// E=1
 
     w_data[2] = w_data[1];
-    TRACE( "HNibble=%i\r\n",LCD_D_HNIBBLE(data) );
+    //TRACE( "HNibble=%i\r\n",LCD_D_HNIBBLE(data) );
     w_data[2] |= LCD_D_HNIBBLE(data);
     
     w_data[3] = 0b01001000;  //E=0
     w_data[4] = 0b00001100; //E=1
     
-    TRACE( "LNibble=%i\r\n",LCD_D_LNIBBLE(data) );
+    //TRACE( "LNibble=%i\r\n",LCD_D_LNIBBLE(data) );
     w_data[5] = w_data[4];
     w_data[5] |= LCD_D_LNIBBLE(data);
 
